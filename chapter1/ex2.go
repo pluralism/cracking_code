@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func permutation(s, t string) bool {
 	if len(s) != len(t) {
 		return false
@@ -20,8 +18,4 @@ func permutation(s, t string) bool {
 	}
 
 	return true
-}
-
-func main() {
-	fmt.Println(permutation("andre", "nadre"))
 }

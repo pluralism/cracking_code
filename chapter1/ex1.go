@@ -1,4 +1,4 @@
-package chapter1
+package main
 
 func IsUniqueChars(s string) bool {
 	flags := make(map[rune]bool)
