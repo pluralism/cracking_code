@@ -8,7 +8,7 @@ import (
 func compress(s string) string  {
 	var buffer bytes.Buffer
 	arr := []rune(s)
-	counter, currentChar := 0, arr[1]
+	counter, currentChar := 0, arr[0]
 
 	for i, c := range arr {
 		if c != currentChar || i + 1 == len(arr) {
