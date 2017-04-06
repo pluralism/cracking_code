@@ -6,7 +6,7 @@ type Pair struct {
 	x, y int
 }
 
-func main() {
+func pairFunc() {
 	a := [][]int{
 		{1, 2, 3, 4},
 		{0, 4, 5, 6},

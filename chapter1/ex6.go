@@ -23,7 +23,3 @@ func compress(s string) string  {
 	}
 	return buffer.String()
 }
-
-func main() {
-	fmt.Println(compress("aabcccccaaa"))
-}
